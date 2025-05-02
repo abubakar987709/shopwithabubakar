@@ -20,7 +20,7 @@ const index = () => {
       </header>
       <Routes>
         <Route>
-          <Route path="/" element={<Home2 />} />
+          <Route path="/Home2" element={<Home2 />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/View" element={<View />} />
